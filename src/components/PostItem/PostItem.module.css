@@ -35,19 +35,12 @@
 
 .postItemText p {
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 14px;
 	color: #787a80;
 	letter-spacing: 0.3px;
 }
 
 .postItemBtn {
 	display: flex;
-}
-
-.open {
-	background: red !important;
-}
-
-.del {
-	background: green;
+	gap: 10px;
 }
