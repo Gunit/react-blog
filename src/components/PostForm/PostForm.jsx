@@ -20,6 +20,7 @@ const PostForm = ({ create }) => {
 		create(newPost)
 		setText({ title: '', body: '' })
 	}
+
 	return (
 		<div className={styles.postForm}>
 			<h1 className={styles.postFormTitle}>Создай свой пост</h1>
