@@ -13,8 +13,8 @@ const App = () => {
 		setPosts([...posts, post])
 	}
 
-	const deletedPost = id => {
-		setPosts(posts.filter(p => p.id !== id))
+	const deletedPost = post => {
+		setPosts(posts.filter(p => p.id !== post.id))
 	}
 	return (
 		<div>
