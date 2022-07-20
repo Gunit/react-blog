@@ -14,3 +14,32 @@ body {
 	width: 100%;
 	margin: 0 auto;
 }
+
+.filterComponent {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.modalWrapper {
+	position: relative;
+	display: none;
+	height: 100vh;
+	width: 100%;
+	background: rgb(56, 55, 55);
+}
+
+.activeModal {
+	display: block;
+}
+
+.modal {
+	background: #ff3f3a;
+	position: absolute;
+	max-width: 500px;
+	top: 200px;
+	right: 465px;
+	border: 1px solid #ff3f3a;
+	padding: 50px;
+	border-radius: 16px;
+}

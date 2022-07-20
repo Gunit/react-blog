@@ -23,7 +23,6 @@ const PostForm = ({ create }) => {
 
 	return (
 		<div className={styles.postForm}>
-			<h1 className={styles.postFormTitle}>Создай свой пост</h1>
 			<form className={styles.formWrapper}>
 				<Input
 					onChange={e => setText({ ...text, title: e.target.value })}
